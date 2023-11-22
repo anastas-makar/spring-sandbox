@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
-      <module name="hello" target="17" />
+      <module name="restful" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
