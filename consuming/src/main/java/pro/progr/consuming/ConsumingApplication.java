@@ -1,13 +1,13 @@
-package pro.progr.consumingrestful;
+package pro.progr.consuming;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ConsumingRestfulApplication {
+public class ConsumingApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ConsumingRestfulApplication.class, args);
+        SpringApplication.run(ConsumingApplication.class, args);
     }
 
 }
