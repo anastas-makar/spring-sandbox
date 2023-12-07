@@ -1,11 +1,11 @@
 package pro.progr.actuator;
 
-import org.springframework.lang.NonNull;
+import jakarta.validation.constraints.NotBlank;
 
 public class NameDTO {
 
-    @NonNull
-    private String name;
+    @NotBlank
+    private String name = "Stranger";
 
     public String getName() {
         return name;
