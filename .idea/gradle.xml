@@ -4,7 +4,6 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/hello" />
         <option name="gradleJvm" value="17" />
         <option name="modules">
@@ -14,8 +13,8 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/hello-restful" />
+        <option name="gradleJvm" value="18" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/hello-restful" />
@@ -23,8 +22,8 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/restful" />
+        <option name="gradleJvm" value="18" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/restful" />
