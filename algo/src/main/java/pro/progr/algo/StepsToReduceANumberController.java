@@ -20,9 +20,8 @@ public class StepsToReduceANumberController implements AlgoProblemInterface {
                 "(https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/description/)";
     }
 
-    @GetMapping(params = {"num"})
-    public String solution(@RequestParam String num) {
-        var number = Integer.parseInt(num);
+    @GetMapping(params = {"number"})
+    public Integer solution(@RequestParam Integer number) {
 
         var stepCount = 0;
 
@@ -36,6 +35,6 @@ public class StepsToReduceANumberController implements AlgoProblemInterface {
             stepCount++;
         }
 
-        return String.valueOf(stepCount);
+        return stepCount;
     }
 }
