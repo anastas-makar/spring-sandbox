@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: cloudstream
+  kafka:
+    bootstrap-servers: localhost:9092
+    streams:
+      application-id: wordcount-application
+      default-key-serde: org.apache.kafka.common.serialization.Serdes$StringSerde
+      default-value-serde: org.apache.kafka.common.serialization.Serdes$StringSerde
+  cloud:
+    stream:
+      function:
+        definition: processPurchases
